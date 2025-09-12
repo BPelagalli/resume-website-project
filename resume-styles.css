@@ -1,0 +1,146 @@
+body {
+    color: rgb(91, 44, 24);
+    margin: 0;
+    font-family: 'Times New Roman';
+    padding-bottom: 50px;
+    margin-left: 180px;
+    margin-right: 180px;
+    background-color: rgb(246, 230, 211)
+  }
+  p {
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .heading-bar {
+    margin-top:40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    height: 8px;
+    display: flex;
+    background-color: rgb(67, 107, 57);
+  }
+
+  .footing-bar { 
+    margin-bottom: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 8px;
+    display: flex;
+    background-color: rgb(67, 107, 57);
+  }
+
+  .name-info-container{
+    display: flex;
+    flex-direction: row;
+    margin-right: 80px;
+    margin-left: 40px;
+  }
+
+  .name {
+  font-family: 'Times New Roman';
+  font-size: 60px;
+  font-weight: bold;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 80px;
+  display: flex;
+  flex: 1;
+}
+  
+  .contact-info {
+    display: inline-block;
+    font-size: 24px;
+    vertical-align: top;
+    width: 20vw;
+  }
+
+  .heading-1 {
+    font-size: 40px;
+    padding-left: 40px;
+    display: inline-block;
+    width: 740px;
+    color: rgb(67, 107, 57);
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .heading-2 {
+    display: inline-block;
+    font-size: 40px;
+    color: rgb(67, 107, 57);
+    font-weight: bold;
+    padding: 0px;
+  }
+
+  .main-container {
+    display: flex;
+    padding-bottom: 0px;
+  }
+
+  .experience-grid {
+    display: grid;
+    width: 70vw;
+    min-width: 300px;
+    grid-template-columns: 1fr;
+    padding-bottom:100px;
+  }
+
+  .history-grid {
+    padding-top: 20px;
+    padding-right: 20px;
+    display: grid;
+    width: 35vw;
+    height: 1150px;
+    min-width: 100px;
+    grid-template-columns: 1fr;
+    margin-left: 80px;
+  }
+
+  .work-experience {
+    padding-left: 40px;
+    font-size: 5px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    line-height: 28px;
+    color: rgb(120, 53, 29);
+  }
+
+  .job-title {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+  } 
+
+
+  .employer{
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  .job-description {
+    font-size: 22px;
+    margin-top: 6px;
+  }
+
+  .details {
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    line-height: 35px;
+    color: rgb(120, 53, 29);
+  }
+
+  .college, .progress {
+    font-style: italic;
+  }
+
+  .projects {
+    text-indent: 30px;
+  }
+
+  #education {
+    text-indent: 30px;
+  }
