@@ -25,3 +25,10 @@ jobs:
           aws s3 sync . s3://brettonpelagalliresume.com --delete \
             --exclude ".git/*" \
             --exclude ".github/*"
+
+      - name: Invalidate CloudFront Cache
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id E3NHR0VBRFA54S \
+            --paths "/" "/index.html"
+
